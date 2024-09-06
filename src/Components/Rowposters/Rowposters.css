@@ -1,0 +1,55 @@
+.poster{
+    color: #fff;
+    margin-left: 20px;
+}
+.row{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.row::-webkit-scrollbar{
+    display: none;
+}
+.posters{
+    cursor: pointer;
+    padding: 10px;
+    max-height: 300px;
+    max-width: 180px;
+    
+    
+}
+.posters:hover{
+    transform: scale(1.2);
+}
+
+.smallPoster{
+    cursor: pointer;
+    padding: 10px;
+    max-height: 200px;
+    max-width: 120px;
+}
+.smallPoster:hover{
+    transform: scale(1.2);
+}
+.close{ 
+    position: absolute;
+    right: 0;
+    width: 3rem;
+    height: 2rem;
+    color: white;
+    outline: none;
+    border: 0;
+    font-weight: 700;
+    background-color: #111;
+    cursor: pointer;
+}
+.close:hover{
+    background-color: rgba(240, 3, 3, 0.975);
+    
+}
+.topbar{
+    
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(51,51,51,0.5);
+}

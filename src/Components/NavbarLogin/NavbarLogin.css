@@ -1,0 +1,7 @@
+import axios from 'axios';
+import Banner from './Components/Banner/Banner';
+import Navbar from './Components/Navbar/Navbar';
+import Rowposter from './Components/Rowposters/Rowposter';
+import { API_KEY } from './Constants/constants';
+import { action, comedy, originals } from './urls';
+import { useEffect, useState } from 'react';
